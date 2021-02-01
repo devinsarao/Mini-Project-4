@@ -24,7 +24,11 @@ class Main {
     }
 
     
-    
+    static int getSalary(int salaryEarnedSpent , int currentsalary)
+   {
+    int salary = currentSalary + salaryEarnedSpent;
+    return salary;
+   }
 
  
 
